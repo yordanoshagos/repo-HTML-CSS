@@ -1,0 +1,217 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+body {
+    margin-inline-start: 350px;
+    background-color: rgb(236, 219, 238);
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(151, 46, 165);
+    font-size: 340%;
+    text-align: center;
+    padding-right: 15%;
+    padding-top: 0;
+}
+
+img {
+    display: flex;
+    height: 510px;
+}
+
+form {
+    font-family: poppins;
+    margin-top: 100px;
+
+}
+
+form input {
+    width: 66.2%;
+    padding: 11px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: gray;
+    margin-top: 10px;
+
+}
+
+.left-container {
+    width: 40%;
+    float: left;
+    padding-bottom: 100px;
+    margin-top: -60px;
+
+}
+
+.right-container {
+    width: 50%;
+    overflow: hidden;
+    border-left: solid 1px;
+    padding-left: 50px;
+    border-color: rgb(179, 154, 180);
+    margin-top: 7%;
+    height: 782px;
+    padding-top: -10px;
+}
+.form{
+    margin-top: -5px;
+}
+
+.fullname {
+    display: flex;
+    margin-bottom: 1%;
+    gap: 9%;
+    color: rgb(77, 74, 74);
+}
+
+
+#firstname {
+    width: 210px;
+
+}
+
+#lastname {
+    width: 215px;
+    color: rgb(87, 85, 85);
+
+}
+
+.credits {
+    color: rgb(82, 79, 79);
+}
+
+.signup-lines {
+    position: relative;
+    margin: 50px auto;
+    text-indent: 35%;
+}
+
+.signup-lines:before,
+.signup-lines:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background: darkgray;
+}
+
+.signup-lines:before {
+    width: 245px;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+}
+
+.signup-lines:after {
+    width: 31.5%;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    right: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+#para {
+    text-indent: 17%;
+}
+
+#submit {
+    color: white;
+    width: 69.5%;
+    padding: 10px;
+    font-size: 100%;
+    font-family: poppins;
+    background-color: rgb(151, 46, 165);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: white;
+    border: black solid 1px;
+    color: black;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    gap: 7%;
+}
+
+#svg {
+    x: 0px;
+    y: 0px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 100px;
+    padding: 6px 30px;
+    border: solid 1px;
+    border-radius: 6px;
+    color: white;
+    background-color: white;
+    margin-left: 70px;
+    cursor: pointer;
+
+
+}
+
+.fa-apple {
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+
+}
+
+.fa-facebook-f {
+    font-size: 30px;
+    color: #2179bd;
+    margin-bottom: 100px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#pass {
+    top: 42px;
+    right: 240px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#pass2 {
+    cursor: pointer;
+    top: 42px;
+    right: 240px;
+    position: absolute;
+}
+
+.lucide-eye {
+    position: relative;
+}
+
+#lucide-eye {
+    position: relative;
+}
